@@ -109,4 +109,53 @@ a[href*="yellow"] {
     text-align: center;
 }
 
+/* Phone Style Sheet */
 
+@media(max-width:500px) {
+    h1 {
+        text-align: center;
+        width: 100%;
+        margin: 50px;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 50px;
+    }
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        margin: 50px;
+    }
+    .background img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 50px;
+        background-size: cover;
+    }
+    body p {
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    footer a {
+       display: flex;
+       justify-content: center;
+       margin: 50px;
+    }
+    a[href*="yellow"] {
+        text-align: center;
+        width: 100%;
+    }
+}
